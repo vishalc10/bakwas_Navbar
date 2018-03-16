@@ -1,0 +1,67 @@
+/* Remove jumbotron's default margin-bottom*/
+
+.jumbotron {
+    margin-bottom: 0;
+    background: #fff;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar {
+    margin-bottom: -0.2em;
+    border-radius: 0;
+    font-size: 1em;
+    background-color: #15b6b8;
+    border-style: none;
+}
+
+
+/* .navbar-inverse{
+    background-color: #15b6b8;
+} */
+
+
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-toggle:hover, .navbar-toggle{
+    background-color: #15b6b8;
+    border-style: none;
+}
+
+.dropdown-menu{
+    color:black;
+    background-color: #15b6b8;
+    box-shadow: 1px 1px 10px 0px black;
+}
+
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #000;
+    }
+}
+
+/* Add a gray background color and some padding to the footer */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+    min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
